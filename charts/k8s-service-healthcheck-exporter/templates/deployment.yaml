@@ -36,11 +36,11 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           env:
             - name: ANNOTATION_KEY
-              value: {{ .Values.annotation_key }}
+              value: "{{ .Values.annotation_key }}"
             - name: ANNOTATION_VALUE
-              value: {{ .Values.annotation_value }}
+              value: "{{ .Values.annotation_value }}"
             - name: HEALTH_ENDPOINT
-              value: {{ .Values.health_endpoint }}
+              value: "{{ .Values.health_endpoint }}"
           ports:
             - name: http
               containerPort: {{ .Values.service.port }}
