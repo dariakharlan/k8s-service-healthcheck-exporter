@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  k8s-service-healthcheck-exporter:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-10-29T15:06:18.844117445Z"
+    description: A Helm chart for Kubernetes
+    digest: f07080645c2af846b1316b6d6213665063046b1fef849de14072edf340637a3d
+    name: k8s-service-healthcheck-exporter
+    type: application
+    urls:
+    - https://github.com/dariakharlan/k8s-service-healthcheck-exporter/releases/download/k8s-service-healthcheck-exporter-0.1.1/k8s-service-healthcheck-exporter-0.1.1.tgz
+    version: 0.1.1
+generated: "2024-10-29T15:06:18.844128396Z"
