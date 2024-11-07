@@ -1,3 +1,0 @@
-# K8S services healthcheck exporter
-
-Discovers services by specified annotation key/value and queries a specific endpoint for each of them
